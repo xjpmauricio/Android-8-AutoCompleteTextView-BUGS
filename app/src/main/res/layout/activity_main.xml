@@ -38,7 +38,7 @@
                     android:textColor="@color/red"
                     android:textStyle="bold" />
 
-                <net.gottsolutions.android8tests.widgets.CustomAutoCompleteTextView
+                <AutoCompleteTextView
                     android:id="@+id/autocompletetextview0"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -102,7 +102,7 @@
                     android:textColor="@color/red"
                     android:textStyle="bold" />
 
-                <net.gottsolutions.android8tests.widgets.CustomAutoCompleteTextView
+                <AutoCompleteTextView
                     android:id="@+id/autocompletetextview1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -143,7 +143,7 @@
                     android:textColor="@color/red"
                     android:textStyle="bold" />
 
-                <net.gottsolutions.android8tests.widgets.CustomAutoCompleteTextView
+                <AutoCompleteTextView
                     android:id="@+id/autocompletetextview2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

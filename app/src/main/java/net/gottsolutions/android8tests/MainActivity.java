@@ -18,9 +18,9 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    CustomAutoCompleteTextView autoCompleteTextView0;
-    CustomAutoCompleteTextView autoCompleteTextView1;
-    CustomAutoCompleteTextView autoCompleteTextView2;
+    AutoCompleteTextView autoCompleteTextView0;
+    AutoCompleteTextView autoCompleteTextView1;
+    AutoCompleteTextView autoCompleteTextView2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         bindCombo(autoCompleteTextView2, items);
     }
 
-    private void bindCombo(final CustomAutoCompleteTextView autoCompleteTextView, List<GenericDataSourceItem> items) {
+    private void bindCombo(final AutoCompleteTextView autoCompleteTextView, List<GenericDataSourceItem> items) {
         try {
 
             autoCompleteTextView.setThreshold(1);
