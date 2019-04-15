@@ -11,7 +11,6 @@ import android.widget.AutoCompleteTextView;
 
 import net.gottsolutions.android8tests.adapters.ComboAdapter;
 import net.gottsolutions.android8tests.models.GenericDataSourceItem;
-import net.gottsolutions.android8tests.widgets.CustomAutoCompleteTextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -66,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                         GenericDataSourceItem item = (GenericDataSourceItem) parent.getItemAtPosition(position);
 
                         if (item != null) {
-
+                            
                         }
                     }
                 }
